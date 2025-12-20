@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .logo{
+            float: left;
+        }
+        .search{
+            border: 1px solid gray;
+            display: flex;
+            width: 200px;
+            height: 43px;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 3px;
+        }
+        .image{
+            width: 50%;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin-left: 100px;
+            margin-right: 70px;
+        }
+        nav{
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .img2{
+            width: 15%;
+        }
+        .img2-box{
+            display: flex;
+            justify-content: space-between;
+            width: 65vh;
+            margin-top: 40px;
+        }
+        .enjoy{
+            margin-top: 30px;
+            display: flex;
+        }
+        .mainimg{
+            width: 65%;
+            float: right;
+            padding-right:100px ;
+        }
+        .sub{
+            background-color: white;
+            border: 2px solid purple;
+            padding: 7px;
+        }
+        .enjoy2{
+            margin-left: 130px;
+            margin-top: 30px;
+
+        }
+        .subhead{
+            width: 500px;
+        }
+        .card-grid-1{
+            margin-left: 15vh;
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+        }
+        .card1{
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+            justify-content: center;
+            border: 1px solid gray;;
+            align-items: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px gray;
+        }
+        .cardb{
+            width: 100px;
+            background-color: white;
+            border: 2px solid purple;
+            color: purple;
+        }
+        .cardb2{
+            width: 100px;
+            background-color: white;
+            border: 2px solid green;
+            color: green;
+        }
+    </style>
+</head>
+<body class="">
+    <header class="">
+        <div class="logo">
+            <img src="./public/images/enjoyalgo1.png" class="image" alt="">
+        </div>
+        <div class=" search "> 
+            <div>Search blogs..&nbsp; &nbsp;</div>
+            <span class="bi bi-search"></span>
+        </div>
+        <nav class="">
+            <span>Courses</span>
+            <span>Blogs</span>
+            <span>Tags</span>
+            <span>Reviews</span>
+            <span> Stories</span>
+            <span>Cotact Us</span>
+        </nav>
+    </header>
+    <main>
+        <section class="enjoy">
+            <div class="enjoy2"> <h2>Enjoy Coumputer Science</h2>
+                <p class="subhead">Subscribe to get well-designed content on data structures and algorithms, machine learning, system design, and OOP design.</p>
+                <div>
+                    <input type="email" style="width: 430px; padding: 5px;" placeholder="Email">
+                    <button class="sub"><span class=""></span> Subscribe</button>
+                </div>
+                <div class="img2-box">
+                    <img src="./public/images/Screenshot 2025-12-20 at 14.49.18.png" class="img2" alt="">
+                    <img src="./public/images/Screenshot 2025-12-20 at 14.49.27.png" class="img2" alt="">
+                    <img src="./public/images/Screenshot 2025-12-20 at 14.49.37.png" class="img2" alt="">
+                </div>
+                <div class="img2-box">
+                    <span>Industry</span>
+                    <span>Interview</span> 
+                    <span>Interest</span>
+                </div>
+            </div>
+            <div>
+                <img src="./public/images/mainimg.png" class="mainimg" alt="">
+            </div>
+        </section>
+        <section class="card-grid-1">
+            <div class="card1">
+                <p class="">Coding Interview</p>
+                <button class="cardb">Dsa Course</button><br><br>
+                <button class="cardb2">DSA Blogs</button>
+            </div>
+            <div class="card1">
+                <p class="">Coding Interview</p>
+                <button class="cardb">Dsa Course</button><br><br>
+                <button class="cardb2">DSA Blogs</button>
+            </div>
+            <div class="card1">
+                <p class="">Coding Interview</p>
+                <button class="cardb">Dsa Course</button><br><br>
+                <button class="cardb2">DSA Blogs</button>
+            </div>
+            <div class="card1">
+                <p class="">Coding Interview</p>
+                <button class="cardb">Dsa Course</button><br><br>
+                <button class="cardb2">DSA Blogs</button>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
